@@ -46,7 +46,7 @@ To run this pipeline locally:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/almendraapolaya/The-Critical-Eye.git](https://github.com/almendraapolaya/The-Critical-Eye.git)
+git clone https://github.com/almendraapolaya/The-Critical-Eye.git
 
 # 2. Set up environment variables (.env)
 # DATABASE_URL=postgresql://user:password@localhost:5432/news_db
