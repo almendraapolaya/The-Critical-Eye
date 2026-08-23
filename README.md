@@ -3,30 +3,39 @@
 > **Can machine learning spot fake news faster than a human editor?**  
 > *The Critical Eye* is an end-to-end data engineering and Machine Learning pipeline built to analyze over **116,000 news articles**, spot deceptive writing patterns, and deliver real-time visual insights to combat digital misinformation.
 
+<p center>
+  <a href="https://public.tableau.com/views/TheCriticalEye-ExecutiveAnalytics/The_Critical_Eye_Executive_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+    <img src="https://img.shields.io/badge/View_Live_Dashboard-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Live Tableau Dashboard">
+  </a>
+</p>
+
 ---
 
-## 🎯 The Core Highlights ✨
+## 🎯 The Core Highlights
 * ⚡ **95.59% Classification Accuracy:** Powered by TF-IDF vectorization and machine learning models.
 * 📊 **116K+ Articles Processed:** Blending multiple raw news datasets into a clean, normalized PostgreSQL pipeline.
 * 💡 **Key Data Insight:** Fake news articles heavily cluster at significantly **shorter word counts** compared to authentic journalism.
 
 ---
 
-## 🛠️ The Data Pipeline & Tech Stack
+## 🛠️ Data Pipeline & Tech Stack
 
-* **Data Engineering:** Python (`Pandas`, `NumPy`), `SQLAlchemy`, `PostgreSQL`
-* **Natural Language Processing & ML:** `scikit-learn` (TF-IDF Vectorization, Logistic Regression)
-* **Visual Intelligence:** Tableau Public Interactive Dashboard
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
 ---
 
-## 📊 Interactive Dashboard
+## 📊 Interactive Analytics Dashboard
 
-Check out the full interactive dashboard on **[Tableau Public](https://public.tableau.com/)** *(https://public.tableau.com/views/TheCriticalEye-ExecutiveAnalytics/The_Critical_Eye_Executive_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*.
+Click the button above to explore the live interactive dashboard on Tableau Public.
 
-**Key Dashboard Features:**
-1. **Dataset Class Balance:** Proves the baseline data split for unbiased training.
-2. **Model Performance Matrix (Confusion Matrix):** Visualizes the 95.59% precision hits vs. false positives.
+**Key Visual Insights:**
+1. **Dataset Class Balance:** Displays the balanced data split powering unbiased training.
+2. **Model Performance Matrix:** Visualizes the 95.59% precision hits vs. false positives.
 3. **Word Count Distribution:** Highlights length density patterns across authentic vs. deceptive media.
 
 ---
@@ -40,8 +49,7 @@ To run this pipeline locally:
 git clone [https://github.com/almendraapolaya/The-Critical-Eye.git](https://github.com/almendraapolaya/The-Critical-Eye.git)
 cd The-Critical-Eye
 
-# 2. Set up your environment variables (.env)
-# Create a .env file with your PostgreSQL connection string:
+# 2. Set up environment variables (.env)
 # DATABASE_URL=postgresql://user:password@localhost:5432/news_db
 
 # 3. Ingest raw datasets into PostgreSQL
