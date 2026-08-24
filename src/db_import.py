@@ -41,7 +41,7 @@ try:
     print("\n Loading WELFake dataset from CSV...")
     welfake_df = pd.read_csv("data/WELFake_Dataset.csv")
     
-    # Rename the first column to 'id' so it matches the SQL table column name perfectly
+    # Renaming the first column to 'id' so it matches the SQL table column name perfectly
     welfake_df.rename(columns={welfake_df.columns[0]: 'id'}, inplace=True)
     
     print(f"Pushing {len(welfake_df):,} records to 'welfake_raw' table in PostgreSQL...")
