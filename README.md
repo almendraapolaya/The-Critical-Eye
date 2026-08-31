@@ -23,6 +23,7 @@
 
 > 🎥 **[Click here to watch the full 2.5-minute project video demo on Google Drive](https://drive.google.com/file/d/1taL3skeOvAgwJIAbBd7MiYCqFXaFBgFM/view?usp=sharing)**
 
+[![Presentation Deck](https://img.shields.io/badge/Presentation-Gamma_Slides-blue?style=for-the-badge&logo=gamma)](https://gamma.app/docs/The-Critical-Eye-Unmasking-Misinformation-with-NLP-Visual-Analyti-47csh31oz6brrm5)
 ---
 
 ## 🛠️ Data Pipeline & Tech Stack
